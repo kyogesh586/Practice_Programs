@@ -13,7 +13,7 @@ public class SmallestOf3Numbers {
 		System.out.println("A is smallest");
 		
 		else if(b<a && b<c)
-			System.out.println("B is smallest");
+			System.out.println("B is smallest"); 
 		
 		else
 			System.out.println("C is smallest");
