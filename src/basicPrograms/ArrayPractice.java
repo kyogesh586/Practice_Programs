@@ -7,7 +7,7 @@ public class ArrayPractice {
 		
 		ArrayPractice AP=new ArrayPractice();
 		//System.out.println("Sum of Array: "+ AP.add());
-		AP.search();
+		AP.searchString();
 	}
 	
 	int arr[]= new int[] {3,7,4,9,2};
@@ -23,7 +23,7 @@ public class ArrayPractice {
 		return add;
 	}
 	
-	public void search() {
+	public void searchNumber() {
 		
 		int target=9;
 		for(int i=0; i<arr.length; i++) {
@@ -31,6 +31,20 @@ public class ArrayPractice {
 			if(arr[i]==target) {
 				
 				System.out.println("Number found at "+i+" location");
+			}
+		}
+	}
+	
+	public void searchString() {
+		
+		String target="Yogesh";
+		String arr[]=new String[] {"Rinku", "Yogesh", "Bunty", "Deepak", "Pawan"};
+		
+		for(int i=0; i<arr.length; i++) {
+			
+			if(arr[i].equals(target)) {
+				
+				System.out.println("String "+target+" found at "+i+" location");
 			}
 		}
 	}
