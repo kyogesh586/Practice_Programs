@@ -4,7 +4,7 @@ public class Practice {
 
 	public static void main(String[] args) {
 		
-		int number=12321;
+		int number=52321;
 		int revNumber=0;
 		while(number!=0) {
 			int mod=number%10;

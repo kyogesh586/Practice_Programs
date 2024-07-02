@@ -4,7 +4,7 @@ public class StringsPractice {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String name="Yogesh";
+		String name="YoGesh";
 		
 		StringsPractice sp=new StringsPractice();
 		System.out.println("String in lowercase is: "+sp.ConvertStringInLowercase(name));

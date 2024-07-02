@@ -10,7 +10,7 @@ public class ArrayPractice {
 		AP.searchString();
 	}
 	
-	int arr[]= new int[] {3,7,4,9,2};
+	int arr[]= new int[] {3,7,5,9,2};
 	public int add() {
 	
 		int add=0;
